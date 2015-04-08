@@ -12,7 +12,7 @@ class myClass {
 
 	// print out a property method
 	public function out(){
-		print "<h1> $this->hey </h1>";
+		print "$this->hey";
 	}
 
 	// if you name a function __construct it will fire off when your class initiates
